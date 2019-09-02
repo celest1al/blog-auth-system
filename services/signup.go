@@ -1,9 +1,9 @@
 package services
 
 import (
-	dbp "dev-blog/db" // rename import of db as dbp
-	"dev-blog/models"
-	"dev-blog/utils"
+	dbp "github.com/celest1al/blog-auth-system/db" // rename import of db as dbp
+	"github.com/celest1al/blog-auth-system/models"
+	"github.com/celest1al/blog-auth-system/utils"
 	"net/http"
 
 	"golang.org/x/crypto/bcrypt"

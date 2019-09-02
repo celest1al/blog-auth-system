@@ -1,10 +1,10 @@
 package services
 
 import (
-	dbp "dev-blog/db"
-	"dev-blog/models"
-	"dev-blog/utils"
-	"net/http"
+	dbp "github.com/celest1al/blog-auth-system/db"
+	"github.com/celest1al/blog-auth-system/models"
+	"github.com/celest1al/blog-auth-system/utils"
+	"github.com/celest1al/blog-auth-system/http"
 )
 
 const pepper = "iamapepper"

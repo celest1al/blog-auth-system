@@ -1,8 +1,9 @@
 package routes
 
 import (
-	"dev-blog/utils"
 	"net/http"
+
+	"github.com/celest1al/blog-auth-system/utils"
 )
 
 func homeFunc(w http.ResponseWriter, r *http.Request) {

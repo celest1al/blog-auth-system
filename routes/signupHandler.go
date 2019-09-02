@@ -1,8 +1,9 @@
 package routes
 
 import (
-	"dev-blog/utils"
 	"net/http"
+
+	"github.com/celest1al/blog-auth-system/utils"
 )
 
 func signUp(w http.ResponseWriter, req *http.Request) {

@@ -1,10 +1,11 @@
 package routes
 
 import (
-	"dev-blog/services"
 	"fmt"
 	"html/template"
 	"net/http"
+
+	"github.com/celest1al/blog-auth-system/services"
 
 	"github.com/gorilla/mux"
 )

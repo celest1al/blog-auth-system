@@ -1,8 +1,8 @@
 package main
 
 import (
-	dbp "dev-blog/db"
-	"dev-blog/routes"
+	dbp "github.com/celest1al/blog-auth-system/db"
+	"github.com/celest1al/blog-auth-system/routes"
 
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 )
